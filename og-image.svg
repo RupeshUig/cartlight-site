@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Cartlight Labs — Is ChatGPT Ads making you money?">
+  <!-- Uses Bricolage Grotesque, Instrument Serif, Inter, and Geist Mono. Export at 1200x630 to PNG for og-image.png. -->
+  <rect width="1200" height="630" fill="#0B0B0C"/>
+  <polygon points="0,565 1200,455 1200,630 0,630" fill="#3047FF"/>
+
+  <!-- Brand -->
+  <circle cx="88" cy="78" r="24" fill="#A6F4C5"/>
+  <path d="M96 71.5 A10 10 0 1 0 96 84.5" fill="none" stroke="#3047FF" stroke-width="7.2"/>
+  <text x="126" y="87" font-family="'Bricolage Grotesque', system-ui, sans-serif" font-size="30" fill="#FFFDF6" letter-spacing="-0.8"><tspan font-weight="800">cartlight</tspan><tspan font-weight="400"> labs</tspan></text>
+
+  <!-- Pill tag -->
+  <rect x="64" y="138" width="268" height="36" rx="18" fill="#FFD84A"/>
+  <text x="198" y="161" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="14" font-weight="500" fill="#0B0B0C" letter-spacing="0.6">SHOPIFY APP · EARLY ACCESS</text>
+
+  <!-- Headline -->
+  <text x="64" y="256" font-family="'Bricolage Grotesque', system-ui, sans-serif" font-size="72" font-weight="800" fill="#FFFDF6" letter-spacing="-2.5">Is ChatGPT Ads</text>
+  <text x="64" y="336" font-family="'Bricolage Grotesque', system-ui, sans-serif" font-size="72" font-weight="800" fill="#FFFDF6" letter-spacing="-2.5">making you <tspan fill="#A6F4C5" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-weight="400" font-size="80" letter-spacing="-0.5">money</tspan>?</text>
+
+  <!-- Subtitle -->
+  <text x="64" y="396" font-family="'Inter', system-ui, sans-serif" font-size="24" font-weight="400" fill="#FFFDF6" opacity="0.88">Catalog checks, tracking fixes &amp; true profit</text>
+  <text x="64" y="428" font-family="'Inter', system-ui, sans-serif" font-size="24" font-weight="400" fill="#FFFDF6" opacity="0.88">for Shopify merchants.</text>
+
+  <!-- Footer domain -->
+  <text x="64" y="592" font-family="'Geist Mono', ui-monospace, monospace" font-size="18" font-weight="500" fill="#FFFDF6">cartlightlabs.com</text>
+
+  <!-- Floating dashboard card -->
+  <g transform="translate(720 112)">
+    <rect x="0" y="0" width="416" height="378" rx="22" fill="#FFFEFA" stroke="#E8E3D0" stroke-width="2"/>
+    <path d="M0 22 Q0 0 22 0 L394 0 Q416 0 416 22 L416 48 L0 48 Z" fill="#F6F2E3"/>
+    <line x1="0" y1="48" x2="416" y2="48" stroke="#E8E3D0" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="6" fill="#FF6B5E"/>
+    <circle cx="44" cy="24" r="6" fill="#FFC24B"/>
+    <circle cx="64" cy="24" r="6" fill="#3DD68C"/>
+    <rect x="128" y="11" width="188" height="26" rx="13" fill="#FFFFFF" stroke="#E8E3D0"/>
+    <text x="222" y="28" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#55555C">app.cartlight · overview</text>
+
+    <!-- Stat boxes -->
+    <rect x="24" y="70" width="176" height="84" rx="14" fill="#FFFFFF" stroke="#E8E3D0" stroke-width="1.5"/>
+    <text x="40" y="96" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#55555C">TRUE PROFIT</text>
+    <text x="40" y="134" font-family="'Bricolage Grotesque', system-ui, sans-serif" font-size="30" font-weight="800" fill="#0B7A49">+$1,284</text>
+
+    <rect x="216" y="70" width="176" height="84" rx="14" fill="#FFFFFF" stroke="#E8E3D0" stroke-width="1.5"/>
+    <text x="232" y="96" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#55555C">ROAS</text>
+    <text x="232" y="134" font-family="'Bricolage Grotesque', system-ui, sans-serif" font-size="30" font-weight="800" fill="#0B0B0C">3.4×</text>
+
+    <!-- Rows -->
+    <rect x="24" y="174" width="368" height="46" rx="12" fill="#F6F2E3"/>
+    <text x="40" y="202" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="500" fill="#0B0B0C">Walnut Dining Table</text>
+    <rect x="316" y="185" width="60" height="24" rx="12" fill="#CDEFDC"/>
+    <text x="346" y="201" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#0A5A36">Live</text>
+
+    <rect x="24" y="230" width="368" height="46" rx="12" fill="#F6F2E3"/>
+    <text x="40" y="258" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="500" fill="#0B0B0C">Brass Floor Lamp</text>
+    <rect x="256" y="241" width="120" height="24" rx="12" fill="#FFE6A3"/>
+    <text x="316" y="257" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#6E4B00">Price mismatch</text>
+
+    <rect x="24" y="286" width="368" height="46" rx="12" fill="#F6F2E3"/>
+    <text x="40" y="314" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="500" fill="#0B0B0C">Leather Armchair</text>
+    <rect x="258" y="297" width="118" height="24" rx="12" fill="#FFD0CA"/>
+    <text x="317" y="313" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#8F2418">Rejected image</text>
+
+    <circle cx="32" cy="355" r="5" fill="#2BC17B"/>
+    <text x="46" y="359" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#55555C">Tracking live · Purchase events active</text>
+  </g>
+</svg>
+

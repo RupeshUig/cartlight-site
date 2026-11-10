@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" role="img" aria-label="cartlight labs">
+  <rect width="420" height="100" fill="#3047FF"/>
+  <circle cx="50" cy="50" r="46" fill="#A6F4C5"/>
+  <path d="M65 37 A19 19 0 1 0 65 63" fill="none" stroke="#3047FF" stroke-width="14"/>
+  <!-- Wordmark uses Gabarito. Convert text to outlines in a vector editor before using this file outside the website. -->
+  <text x="118" y="66" font-family="Gabarito, 'Arial Black', sans-serif" font-size="46" fill="#A6F4C5" transform="skewX(-8) translate(9 0)"><tspan font-weight="800">cartlight</tspan><tspan font-weight="400"> labs</tspan></text>
+</svg>
