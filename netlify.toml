@@ -40,54 +40,24 @@
     Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
-  for = "/style.css"
+  for = "/assets/css/*"
   [headers.values]
     Cache-Control = "public, max-age=3600, must-revalidate"
 
 [[headers]]
-  for = "/nav.js"
+  for = "/assets/js/*"
   [headers.values]
     Cache-Control = "public, max-age=3600, must-revalidate"
 
 [[headers]]
-  for = "/*.svg"
+  for = "/assets/images/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-[[headers]]
-  for = "/*.png"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.jpg"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.jpeg"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.webp"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.ico"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.woff2"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/*.woff"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+[[redirects]]
+  from = "/favicon.svg"
+  to = "/assets/images/favicon.svg"
+  status = 200
 
 [[redirects]]
   from = "/privacy/"
