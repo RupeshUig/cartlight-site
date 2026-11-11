@@ -1,0 +1,14 @@
+{
+  "name": "cartlightlabs-site",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Cartlight Labs static site and script-tag-migration Netlify Functions",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}
+

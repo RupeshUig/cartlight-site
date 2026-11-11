@@ -1,0 +1,276 @@
+{
+  "_comment": "Known Shopify storefront script domains referenced in asyncLoad. Any entry with verified: false (or any unlisted domain) is displayed factually as 'Unknown app script (<domain>)'. Never blame vendors; only state what stops loading via script tags on March 1, 2027.",
+  "apps": [
+    {
+      "match": "connect.facebook.net",
+      "app": "Meta Pixel",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "Meta conversion and audience events loaded through this script tag may stop recording.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "www.googletagmanager.com",
+      "app": "Google Tag / Tag Manager",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "Google Analytics or Google Ads tags loaded via this script tag may stop firing.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "www.google-analytics.com",
+      "app": "Google Analytics",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "Analytics tracking loaded via this script tag may stop counting visits and sales.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "googleads.g.doubleclick.net",
+      "app": "Google Ads tag",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "Google Ads conversion tracking via this script tag may stop counting purchases.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "analytics.tiktok.com",
+      "app": "TikTok Pixel",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "TikTok ad events and conversion tracking may stop firing.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "sc-static.net",
+      "app": "Snapchat Pixel",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "Snapchat ad conversion events loaded via this script tag may stop reporting.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "s.pinimg.com",
+      "app": "Pinterest Tag",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "Pinterest conversion and catalog tag events may stop recording.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "static.ads-twitter.com",
+      "app": "X (Twitter) Pixel",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "X conversion events loaded through this script tag may stop recording.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "bat.bing.com",
+      "app": "Microsoft Advertising UET",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "Bing / Microsoft Advertising conversion tracking may stop firing.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "snap.licdn.com",
+      "app": "LinkedIn Insight Tag",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "LinkedIn conversion tracking loaded through this script tag may stop firing.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "static.hotjar.com",
+      "app": "Hotjar",
+      "category": "tracking",
+      "status": "will_break",
+      "what_breaks": "Session recordings and heatmaps loaded via this script tag may stop capturing.",
+      "fix": "Move this tracking to Shopify's customer events.",
+      "verified": true
+    },
+    {
+      "match": "static.klaviyo.com",
+      "app": "Klaviyo",
+      "category": "popup",
+      "status": "will_break",
+      "what_breaks": "Sign-up pop-ups, forms, and browse tracking via this script tag may stop showing.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "widget.privy.com",
+      "app": "Privy",
+      "category": "popup",
+      "status": "will_break",
+      "what_breaks": "Pop-ups, banners, and email capture forms may stop showing.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "a.omappapi.com",
+      "app": "OptinMonster",
+      "category": "popup",
+      "status": "will_break",
+      "what_breaks": "Pop-up campaigns and email sign-up overlays may stop appearing.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "cdn.judge.me",
+      "app": "Judge.me",
+      "category": "reviews",
+      "status": "will_break",
+      "what_breaks": "Review stars and review widgets loaded via this script tag may disappear from product pages.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "staticw2.yotpo.com",
+      "app": "Yotpo Reviews",
+      "category": "reviews",
+      "status": "will_break",
+      "what_breaks": "Star ratings and review widgets may disappear from product pages.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "cdn-loyalty.yotpo.com",
+      "app": "Yotpo Loyalty & Referrals",
+      "category": "loyalty",
+      "status": "will_break",
+      "what_breaks": "Your loyalty points launcher, rewards panels, and referral widgets may stop showing.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "yotpo.com",
+      "app": "Yotpo",
+      "category": "reviews",
+      "status": "will_break",
+      "what_breaks": "Yotpo review or loyalty widgets loaded via this script tag may stop showing.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "cdn.attn.tv",
+      "app": "Attentive",
+      "category": "popup",
+      "status": "will_break",
+      "what_breaks": "SMS and email sign-up units and browse tracking loaded via this script tag may stop working.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "backinstock.useamp.com",
+      "app": "Back in Stock by Amp",
+      "category": "popup",
+      "status": "will_break",
+      "what_breaks": "Out-of-stock notify-me buttons and back-in-stock sign-up forms may stop appearing.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "crossborder-integration.global-e.com",
+      "app": "Global-e",
+      "category": "other",
+      "status": "will_break",
+      "what_breaks": "International currency selectors, geo-location prompts, and cross-border storefront banners may stop loading.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "id-shop.govx.com",
+      "app": "GOVX ID",
+      "category": "other",
+      "status": "will_break",
+      "what_breaks": "Military and first-responder discount verification widgets loaded via this script tag may stop appearing.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "loox.io",
+      "app": "Loox",
+      "category": "reviews",
+      "status": "will_break",
+      "what_breaks": "Photo reviews and star ratings loaded via this script tag may stop showing.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "cdn-static.okendo.io",
+      "app": "Okendo",
+      "category": "reviews",
+      "status": "will_break",
+      "what_breaks": "Review stars and customer review widgets may disappear from product pages.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "cdn.stamped.io",
+      "app": "Stamped.io",
+      "category": "reviews",
+      "status": "will_break",
+      "what_breaks": "Review stars or loyalty widgets loaded via this script tag may stop showing.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "cdn.sweettooth.io",
+      "app": "Smile.io",
+      "category": "loyalty",
+      "status": "will_break",
+      "what_breaks": "Your loyalty points launcher and rewards panel may stop loading.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "config.gorgias.chat",
+      "app": "Gorgias Chat",
+      "category": "chat",
+      "status": "will_break",
+      "what_breaks": "The storefront support chat bubble may disappear.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "code.tidio.co",
+      "app": "Tidio Chat",
+      "category": "chat",
+      "status": "will_break",
+      "what_breaks": "The live chat widget may stop showing on your store.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "widget.intercom.io",
+      "app": "Intercom",
+      "category": "chat",
+      "status": "will_break",
+      "what_breaks": "The customer support chat launcher may stop appearing.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    },
+    {
+      "match": "static.rechargecdn.com",
+      "app": "Recharge",
+      "category": "upsell",
+      "status": "will_break",
+      "what_breaks": "Subscription options or upsell widgets loaded via this script tag may stop loading.",
+      "fix": "Update the app and switch on its new version in your theme, or replace it.",
+      "verified": true
+    }
+  ]
+}
+

@@ -77,12 +77,16 @@
     <p><strong>Waitlist and contact details.</strong> If you join early access or email us, we collect your email
       address, and optionally your Shopify store URL and whether you run ChatGPT Ads. We use this only to contact you
       about Cartlight.</p>
-    <p><strong>Migration free-check form.</strong> If you request a free script tag check at <a
-        href="/script-tag-migration.html">/script-tag-migration</a>, we collect your Shopify store URL, email address,
-      your optional answer on custom developer code, and campaign referral parameters (<code>utm_source</code>,
-      <code>utm_medium</code>, and <code>utm_campaign</code>). We use this to review your storefront, prepare and send
-      your migration report and fixed-price quote, and see which channels bring merchants to us. Form submissions are
-      processed and stored via Netlify Forms. To request deletion of your submission, email <a
+    <p><strong>Script tag checker and fix-plan forms.</strong> When you run the instant checker at <a
+        href="/script-tag-migration.html">/script-tag-migration</a>, our server function fetches only the public homepage
+      of the store address you enter (just like any shopper, without cookies, login, or Shopify admin access). Recent
+      results may be cached for up to 10 minutes, and saved reports shared via a personalized link are stored in Netlify
+      Blobs under a random short code that contains no store name or personal details. To prevent abuse, we keep a
+      short hourly request count per hashed IP address (we do not store raw IP addresses). If you submit your email for a
+      fix plan, March&nbsp;1 reminder, or manual check, we collect your email address, store address, scan summary,
+      optional custom-code answer, and campaign parameters (<code>utm_source</code>, <code>utm_medium</code>, and
+      <code>utm_campaign</code>) via Netlify Forms so we can send your fix plan and fixed-price quote. To request
+      deletion of any saved check or form submission, email <a
         href="mailto:hello@cartlightlabs.com">hello@cartlightlabs.com</a>.</p>
     <p><strong>Shopify store data.</strong> When you install our app and approve its permissions, we access store
       details, products, product costs, and order data. We use this to calculate profit, check your catalog and

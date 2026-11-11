@@ -1,6 +1,10 @@
 [build.processing.html]
   pretty_urls = true
 
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["data/known-apps.json"]
+
 [[headers]]
   for = "/*"
   [headers.values]
@@ -63,6 +67,24 @@
   for = "/og/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/scripts/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/data/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/backup/*"
+  to = "/404.html"
+  status = 404
+  force = true
 
 [[redirects]]
   from = "/favicon.svg"
