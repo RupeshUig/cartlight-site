@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Cartlight Labs — Shopify Script Tag Migration Before March 1, 2027">
+  <rect width="1200" height="630" fill="#0B0B0C"/>
+  <polygon points="0,565 1200,485 1200,630 0,630" fill="#18181D"/>
+
+  <!-- Brand -->
+  <circle cx="88" cy="76" r="24" fill="#A6F4C5"/>
+  <path d="M96 69.5 A10 10 0 1 0 96 82.5" fill="none" stroke="#3047FF" stroke-width="7.2"/>
+  <text x="126" y="85" font-family="'Bricolage Grotesque', system-ui, sans-serif" font-size="30" fill="#FFFDF6" letter-spacing="-0.8"><tspan font-weight="800">cartlight</tspan><tspan font-weight="400"> labs</tspan></text>
+
+  <!-- Pill tag -->
+  <rect x="64" y="138" width="290" height="36" rx="18" fill="#FFD84A"/>
+  <text x="209" y="161" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="14" font-weight="500" fill="#0B0B0C" letter-spacing="0.6">DEADLINE · MARCH 1, 2027</text>
+
+  <!-- Headline -->
+  <text x="64" y="256" font-family="'Bricolage Grotesque', system-ui, sans-serif" font-size="68" font-weight="800" fill="#FFFDF6" letter-spacing="-2.4">Will your Shopify</text>
+  <text x="64" y="334" font-family="'Bricolage Grotesque', system-ui, sans-serif" font-size="68" font-weight="800" fill="#FFFDF6" letter-spacing="-2.4">store <tspan fill="#A6F4C5" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-weight="400" font-size="78" letter-spacing="-0.5">break</tspan> March 1?</text>
+
+  <!-- Subtitle -->
+  <text x="64" y="396" font-family="'Inter', system-ui, sans-serif" font-size="24" font-weight="400" fill="#FFFDF6" opacity="0.88">Free script tag check in 24 hours.</text>
+  <text x="64" y="428" font-family="'Inter', system-ui, sans-serif" font-size="24" font-weight="400" fill="#FFFDF6" opacity="0.88">Fixed-price migration in 3 days from $149.</text>
+
+  <!-- Footer URL -->
+  <text x="64" y="592" font-family="'Geist Mono', ui-monospace, monospace" font-size="18" font-weight="500" fill="#A6F4C5">cartlightlabs.com/script-tag-migration</text>
+
+  <!-- Dark store check card -->
+  <g transform="translate(698 110)">
+    <rect x="0" y="0" width="438" height="384" rx="22" fill="#141418" stroke="rgba(255,253,246,0.18)" stroke-width="2"/>
+    <path d="M0 22 Q0 0 22 0 L416 0 Q438 0 438 22 L438 52 L0 52 Z" fill="#1D1D23"/>
+    <line x1="0" y1="52" x2="438" y2="52" stroke="rgba(255,253,246,0.12)" stroke-width="1.5"/>
+    <circle cx="24" cy="26" r="6" fill="#FF6B5E"/>
+    <circle cx="44" cy="26" r="6" fill="#FFC24B"/>
+    <circle cx="64" cy="26" r="6" fill="#3DD68C"/>
+    <text x="236" y="31" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="13" font-weight="500" fill="#E8E3D0">Store check · yourstore.com</text>
+
+    <!-- Row 1 -->
+    <rect x="22" y="74" width="394" height="50" rx="12" fill="#1E1E24"/>
+    <text x="38" y="104" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="500" fill="#FFFDF6">Product Reviews (old)</text>
+    <rect x="296" y="86" width="106" height="26" rx="13" fill="rgba(255,107,94,0.18)" stroke="rgba(255,107,94,0.45)"/>
+    <text x="349" y="103" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#FF9E96">Will break</text>
+
+    <!-- Row 2 -->
+    <rect x="22" y="134" width="394" height="50" rx="12" fill="#1E1E24"/>
+    <text x="38" y="164" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="500" fill="#FFFDF6">Exit pop-up</text>
+    <rect x="296" y="146" width="106" height="26" rx="13" fill="rgba(255,107,94,0.18)" stroke="rgba(255,107,94,0.45)"/>
+    <text x="349" y="163" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#FF9E96">Will break</text>
+
+    <!-- Row 3 -->
+    <rect x="22" y="194" width="394" height="50" rx="12" fill="#1E1E24"/>
+    <text x="38" y="224" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="500" fill="#FFFDF6">Meta pixel (script tag)</text>
+    <rect x="296" y="206" width="106" height="26" rx="13" fill="rgba(255,107,94,0.18)" stroke="rgba(255,107,94,0.45)"/>
+    <text x="349" y="223" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#FF9E96">Will break</text>
+
+    <!-- Row 4 -->
+    <rect x="22" y="254" width="394" height="50" rx="12" fill="#1E1E24"/>
+    <text x="38" y="284" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="500" fill="#FFFDF6">Live chat</text>
+    <rect x="252" y="266" width="150" height="26" rx="13" fill="rgba(255,216,74,0.16)" stroke="rgba(255,216,74,0.45)"/>
+    <text x="327" y="283" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#FFD84A">Needs app embed</text>
+
+    <!-- Row 5 -->
+    <rect x="22" y="314" width="394" height="50" rx="12" fill="#1E1E24"/>
+    <text x="38" y="344" font-family="'Inter', system-ui, sans-serif" font-size="15" font-weight="500" fill="#FFFDF6">Loyalty widget</text>
+    <rect x="330" y="326" width="72" height="26" rx="13" fill="rgba(166,244,197,0.16)" stroke="rgba(166,244,197,0.45)"/>
+    <text x="366" y="343" text-anchor="middle" font-family="'Geist Mono', ui-monospace, monospace" font-size="12" font-weight="500" fill="#A6F4C5">Safe</text>
+  </g>
+</svg>
+

@@ -20,6 +20,11 @@
     Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
+  for = "/script-tag-migration"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
   for = "/privacy"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
@@ -54,9 +59,24 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+[[headers]]
+  for = "/og/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
 [[redirects]]
   from = "/favicon.svg"
   to = "/assets/images/favicon.svg"
+  status = 200
+
+[[redirects]]
+  from = "/script-tag-migration/"
+  to = "/script-tag-migration"
+  status = 301
+
+[[redirects]]
+  from = "/script-tag-migration"
+  to = "/script-tag-migration.html"
   status = 200
 
 [[redirects]]
